@@ -2,17 +2,17 @@
 
 {% if {{page.category}} == "Trails" %}
   <ul>
-    <li>{% unless {{page.title}} == "Rules & Regulations"%}<a href="/rules-regulations">{% endunless %}Rules & Regulations{% unless {{page.title}} == "Rules & Regulations"%}</a>{% endunless %}</li>
-    <li>{% unless {{page.title}} == "Trail Rating" %}<a href="/trail-rating">{% endunless %}Trail Rating{% unless {{page.title}} == "Trail Tating" %}</a>{% endunless %}</li>
-    <li>{% unless {{page.title}} == "Trails" %}<a href="/trails">{% endunless %}Trails{% unless {{page.title}} == "Trails" %}</a>{% endunless %}</li>
+    <li>{% unless {{page.title}} == "Rules & Regulations"%}<a href="{{site.baseurl}}/rules-regulations">{% endunless %}Rules & Regulations{% unless {{page.title}} == "Rules & Regulations"%}</a>{% endunless %}</li>
+    <li>{% unless {{page.title}} == "Trail Rating" %}<a href="{{site.baseurl}}/trail-rating">{% endunless %}Trail Rating{% unless {{page.title}} == "Trail Tating" %}</a>{% endunless %}</li>
+    <li>{% unless {{page.title}} == "Trails" %}<a href="{{site.baseurl}}/trails">{% endunless %}Trails{% unless {{page.title}} == "Trails" %}</a>{% endunless %}</li>
   </ul>
 {% elsif {{page.category}} == "Other" %}
   {% include nap.html %}
 {% else %}
   <ul>
-    <li>{% unless {{page.title}} == "Upcoming Events" %}<a href="/events">{% endunless %}Upcoming Events{% unless {{page.title}} == "Upcoming Events" %}</a>{% endunless %}</li>
-    <li>{% unless {{page.title}} == "Vendor Registration" %}<a href="/vendor-registration">{% endunless %}Vendor Registration{% unless {{page.title}} == "Vendor Registration" %}</a>{% endunless %}</li>
-    <li>{% unless {{page.title}} == "Rider Registration" %}<a href="/rider-registration">{% endunless %}Rider Registration{% unless {{page.title}} == "Rider Registration" %}</a>{% endunless %}</li>
+    <li>{% unless {{page.title}} == "Upcoming Events" %}<a href="{{site.baseurl}}/events">{% endunless %}Upcoming Events{% unless {{page.title}} == "Upcoming Events" %}</a>{% endunless %}</li>
+    <li>{% unless {{page.title}} == "Vendor Registration" %}<a href="{{site.baseurl}}/vendor-registration">{% endunless %}Vendor Registration{% unless {{page.title}} == "Vendor Registration" %}</a>{% endunless %}</li>
+    <li>{% unless {{page.title}} == "Rider Registration" %}<a href="{{site.baseurl}}/rider-registration">{% endunless %}Rider Registration{% unless {{page.title}} == "Rider Registration" %}</a>{% endunless %}</li>
   </ul>
 {% endif %}
 
@@ -22,4 +22,4 @@
   {% include sponsors.html %}
 {% endunless %}
 
-<!-- <li><a href="https://drive.google.com/open?id==1RQvhrEWgagx_1-2hbGYv9KLfpGYihLs_irBb_dbnGz4" target=="_blank" title=="Download Vendor Registration Form">Vendor Registration Form</a></li> -->
+<!-- <li><a href="{{site.baseurl}}https://drive.google.com/open?id==1RQvhrEWgagx_1-2hbGYv9KLfpGYihLs_irBb_dbnGz4" target=="_blank" title=="Download Vendor Registration Form">Vendor Registration Form</a></li> -->
