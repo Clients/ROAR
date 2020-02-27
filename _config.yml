@@ -49,3 +49,5 @@ url: "www.rangelyohv.com"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+github: [metadata] 
