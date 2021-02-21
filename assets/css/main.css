@@ -107,8 +107,8 @@ h6, .h6 {
   font-size: 1.9rem;
 }
 
-.bg-info{
-    background-color: #385DAB !important;
+.bg-gray{
+    background-color: /*#385DAB*/ #E2E7F033 !important;
 }
 
 .btn-info{
