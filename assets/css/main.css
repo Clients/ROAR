@@ -69,12 +69,12 @@ address{
 
 a {
   /*color: #1c1c1c;*/
-  text-decoration: underline !important;
+  /*text-decoration: underline;/*
 }
 
 a:hover {
   color: #2e4bfd;
-  text-decoration: underline !important;
+  /*text-decoration: none;*/
 }
 
 h1, .title{
